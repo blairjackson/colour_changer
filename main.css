@@ -1,0 +1,73 @@
+/* COLOUR SCHEEMES */
+:root{
+  --main_bg_color:#6CD4FF;
+  --main_text_color:#E8E288;
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+.wrapper{
+  height: 100vh;
+}
+
+.colored_change{
+  height: 50vh;
+  background-color: var(--main_bg_color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading_1{
+  color: var(--main_text_color);
+}
+
+.color_picker{
+  height:50vh;
+  display:flex;
+  justify-content: center;
+}
+
+.colour_squares{
+  flex:1;
+  height:100%;
+  align-self: flex-end;
+  text-align: center;
+  font-size: 4vh;
+}
+
+.colour_squares:hover{
+  text-decoration: none;
+  outline:solid 1px black;
+}
+
+.flex_title{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#scheme_1{
+  background-color: #04030F;
+  color:#73C2BE;
+}
+
+#scheme_2{
+  background-color: #3B60E4;
+  color:#080708;
+}
+
+#scheme_3{
+  background-color: #E34A6F;
+  color:#F7B2BD;
+}
