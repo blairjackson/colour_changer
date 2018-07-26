@@ -1,6 +1,13 @@
 
 function change_color(scheme) {
 
+  // these are the lists that contain the
+  // colours. first in the list will match the first
+  // colour button div.
+
+  // just copy and paste the matching colours
+  // from the css and it will automatically change
+  //your css colour variables
 
   var text_color_list = [
     "#73C2BE",
