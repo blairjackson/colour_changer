@@ -77,6 +77,13 @@ to use the var (variables from :root up above)
   align-content: center;
 }
 
+
+
+/* the styling for the schemes below
+are the same as the javascript colour bg_color_list
+make sure you copy the same colour codes
+over to the javascript file.
+ */
 #scheme_1{
   background-color: #04030F;
   color:#73C2BE;
