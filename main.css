@@ -1,8 +1,20 @@
 /* COLOUR SCHEEMES */
+
+
+
+
+/* Put the colours you want
+to show when the website first
+loads here
+ */
 :root{
   --main_bg_color:#6CD4FF;
   --main_text_color:#E8E288;
 }
+
+
+
+
 
 
 
@@ -19,6 +31,14 @@ html,body{
 .wrapper{
   height: 100vh;
 }
+
+
+
+
+/* Anywhere that you want the
+colours to change make sure
+to use the var (variables from :root up above)
+*/
 
 .colored_change{
   height: 50vh;
