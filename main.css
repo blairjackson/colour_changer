@@ -59,15 +59,19 @@ to use the var (variables from :root up above)
 }
 
 .colour_squares{
-  flex:1;
   height:100%;
-  align-self: flex-end;
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   font-size: 4vh;
 }
 
 .colour_squares:hover{
   text-decoration: none;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
   outline:solid 1px black;
 }
 
