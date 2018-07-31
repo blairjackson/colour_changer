@@ -61,6 +61,7 @@ to use the var (variables from :root up above)
 .colour_squares{
   height:100%;
   display: flex;
+  width:100%;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
